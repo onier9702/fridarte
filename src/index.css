@@ -163,16 +163,17 @@ p {
    
 }
 #barra-btn {
-    text-align: center;
+    /* text-align: center; */
     /* width: 100%; */
     margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 10%;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    /* margin-left: 10%; */
 }
 #navlink {
     color: #adb5bd;
     display: flex;
-    margin-left: 30%;
+    /* margin-left: 30%; */
     margin-bottom: 6px;
     text-decoration-line: none;
     /* text-decoration: none; */
@@ -186,9 +187,9 @@ a :hover{
 a {
     text-decoration-line: none;
 }
-.div-logos {
+/* .div-logos {
     margin-left: 22%;
-}
+} */
 #logos {
     margin-right: 15px;
 }
