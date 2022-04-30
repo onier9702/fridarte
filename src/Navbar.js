@@ -12,7 +12,7 @@ export const Navbar = () => {
         <div className="navbar">
 
           <div>
-            <img id="logofridarte" src="./assets/oficial_color.png" style={{width:130,height:130}} alt="logo-fridarte"/>
+            <img id="logofridarte" src="./assets/oficial_color.png" style={{maxWidth:90,maxHeight:90}} alt="logo-fridarte"/>
           </div>
 
           <div id="barra-btn">

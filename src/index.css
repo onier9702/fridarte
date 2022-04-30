@@ -11,14 +11,21 @@ html, body {
     margin: 0px;
 }
 #root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
 }
 .pr {    
-    margin-left: 20px;
-    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 #ppal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 0px;
     margin: 0px;
     /* width: fit-content; */
@@ -53,19 +60,20 @@ ul {
 
 #locaticon{ 
     color: #1982c4;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 #address {
     padding-bottom: 60px;
 }
 #email {
     color: rgb(230, 39, 39);
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 #location {
     margin: 15px;
 }
 #map {
+    display:grid;
     margin-left: 5%;
 }
 #loc {
@@ -78,7 +86,7 @@ ul {
     border-radius: 8px;
     background-color: #212529;
     margin: 0px;
-    margin-left: 60px;
+    margin-left: 24px;
     color: #ffe8d6;
     cursor: pointer;
     width: fit-content;
@@ -86,25 +94,25 @@ ul {
 
 #faceb{
     color: #0450b4;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-right: 45px;
     margin-left: 38px;
 }
 #inst {
     color: #d94a8c;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-right: 45px;
     margin-left: 38px;
 }
 #pint {
     color: red;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-right: 45px;
     margin-left: 38px;
 }
 #whats {
     color: #8ac926;
-    font-size: 2.5em;
+    font-size: 1.5em;
     margin-right: 45px;
     margin-left: 38px;
 }
@@ -120,12 +128,10 @@ ul {
     margin-left: 35px;
 } */
 
-img {
+/* img {
+    max-width: 100px;
     
-    width: 170px;
-    height: 190px;
-
-}
+} */
 p {
     color: #e9ecef;
     margin: 6px;
@@ -152,7 +158,7 @@ p {
     /* margin-left: 18px; */
     /* margin-bottom: 10px; */
     /* padding-top: 20px; */
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     text-align: center;
    
 }
@@ -160,7 +166,7 @@ p {
     text-align: center;
     /* width: 100%; */
     margin-top: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     margin-left: 10%;
 }
 #navlink {
@@ -195,7 +201,7 @@ a {
 }
 #logofridarte {
     margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 
 }
 
@@ -242,8 +248,6 @@ a {
 
 #singleimage {
     border-radius: 9px;
-    /* height: auto; */
-    /* height: 570; */
 }
 #gray-grid {
     background-color: #212529;
