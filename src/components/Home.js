@@ -17,7 +17,7 @@ export const Home = () => {
           
           {
             portraits.map( p => (
-              <img key={p} src={`./assets/${p}.jpg`} style={{width:100,height:100}} alt={`${p}`}/>
+              <img key={p} src={`../assets/${p}.jpg`} style={{width:100,height:100}} alt={`${p}`}/>
             ) )
           }
           

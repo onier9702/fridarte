@@ -30,8 +30,8 @@ export const Navbar = () => {
           <ul className="div-logos" >
               <i id="logos" className="bi bi-facebook"></i>
               <i id="logos" className="bi bi-instagram"></i>
-              <i id="logos" className="bi bi-twitter"></i>
-              <i id="logos" className="bi bi-pinterest"></i>
+              {/* <i id="logos" className="bi bi-twitter"></i> */}
+              {/* <i id="logos" className="bi bi-pinterest"></i> */}
               <i id="logos" className="bi bi-whatsapp"></i>
           </ul>
         </div>

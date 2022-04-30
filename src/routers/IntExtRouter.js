@@ -14,14 +14,16 @@ export const IntExtRouter = () => {
 
   return (
     <>
+      <div className="container-sm">
+
         <div className="row">
 
 
-          <div className="col-4"  >
+          <div className="col-4 col-sm-4"  >
             <Navbar />
           </div>
 
-          <div className="col-8" >
+          <div className="col-8 col-sm-8" >
 
               <Routes >
                   <Route path="/home"         element={ <Home /> } />
@@ -35,6 +37,7 @@ export const IntExtRouter = () => {
           </div>
         </div>
     
+      </div>
     </>
   )
 }

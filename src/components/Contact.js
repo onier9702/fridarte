@@ -20,7 +20,7 @@ export const Contact = () => {
                                                 Sancti Spiritus Cuba
               </p>
               <div id="map">
-                <img src="./assets/location.jpg" key="location" id="loc" style={{maxWidth:110}} alt="location" />
+                <img src="../assets/location.jpg" key="location" id="loc" style={{maxWidth:110}} alt="location" />
                 <Link to={`/single/location`} id="linkMap" >VerMap</Link>
               </div>
 
