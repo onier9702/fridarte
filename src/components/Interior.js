@@ -7,7 +7,7 @@ import '../index.css';
 
 export const Interior = () => {
 
-  const interiors = useMemo(() => getPortrait('interior',13), []);
+  const interiors = useMemo(() => getPortrait('interior',3), []);
   
   const navigate = useNavigate();
   const handleReturn = () => {
@@ -32,7 +32,7 @@ export const Interior = () => {
                   <>
                     <div id="tarjeta">
                       <div id="cuadro">
-                        <img id="photo" key={p} src={`/assets/${p}.jpg`} style={{maxWidth: 100}} alt=''/>
+                        <img id="photo" key={p} src={process.env.PUBLIC_URL + `./assets/${p}.jpg`} style={{maxWidth: 100}} alt=''/>
 
                       </div>
                       <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>

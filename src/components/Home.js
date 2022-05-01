@@ -18,7 +18,7 @@ export const Home = () => {
           
           {
             portraits.map( p => (
-              <img key={p} src={`./assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
+              <img key={p} src={process.env.PUBLIC_URL + `./assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
             ) )
           }
           
