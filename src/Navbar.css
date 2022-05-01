@@ -1,0 +1,101 @@
+.navbar {
+    width: 100%;
+}
+
+.navbar .logofridarte {
+    max-width: 155px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navbar .barra-btn {
+    padding: 4% 2.5% 4% 30% ;    
+}
+.navbar .barra-btn .navlink {
+    color: #adb5bd;
+    display:flex;
+    font-size: 18px;
+    margin: 2.5%;
+    text-decoration-line: none;
+}
+/* .navbar .barra-btn .navlink :hover {
+    color: red;
+} */
+.navbar .logos ul {
+    align-items: center;
+    display: block;
+    padding-top: 4%;
+}
+.navbar .logos ul i {
+    font-size: 1.3rem;
+}
+
+
+@media (max-width:785px) {
+
+    .navbar .logofridarte {
+        max-width: 102px;
+        margin-top: 1.5vw;
+        margin-bottom: 1.5vh;
+    }
+    .navbar .barra-btn {
+        padding-bottom: 16%;    
+    }
+    .navbar .barra-btn .navlink {
+        font-size: 88%;
+    }
+    .navbar .logos ul i {
+        font-size: 90%;
+    }
+}
+@media (max-width:590px) {
+
+    .navbar .logofridarte {
+        max-width: 105px; 
+        margin-top: 1.8vw;
+        margin-bottom: 1.8vh;       
+    }
+    .navbar .barra-btn {
+        padding-bottom: 24%;    
+    }
+    .navbar .barra-btn .navlink {
+        font-size: 75%;
+    }
+    .navbar .logos ul i {
+        font-size: 80%;
+    }
+}
+@media (max-width:476px) {
+
+    .navbar .logofridarte {
+        max-width: 75px;
+        margin-top: 2vw;
+        margin-bottom: 2vh; 
+    }
+    .navbar .barra-btn {
+        padding-bottom: 30%;    
+    }
+    .navbar .barra-btn .navlink {
+        font-size: 71%;
+    }
+    .navbar .logos ul i {
+        font-size: 70%;
+    }
+}
+@media (max-width:370px) {
+
+    .navbar .logofridarte {
+        max-width: 55px;
+        margin-top: 2.2vw;
+        margin-bottom: 2.2vh; 
+    }
+    .navbar .barra-btn {
+        padding-bottom: 40%;   
+    }
+    .navbar .barra-btn .navlink {
+        font-size: 68%;
+    }
+    .navbar .logos ul i {
+        font-size: 60%;
+    }
+    
+}

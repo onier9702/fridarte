@@ -1,0 +1,51 @@
+.portrait {
+    width: 100%;
+}
+.portrait .homePhoto {
+    height: 150px;
+    width: 150px;
+}
+@media (max-width:768px) {
+    .portrait {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portrait .homePhoto {
+        height: 140px;
+        width: 140px;
+    }
+}
+@media (max-width:691px) {
+    .portrait {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portrait .homePhoto {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width:476px) {
+    .portrait {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .portrait .homePhoto {
+        height: 80px;
+        width: 80px;
+    }
+}
+@media (max-width:370px) {
+    .portrait {
+        display: flex;
+        flex-direction: column;
+    }
+    .portrait .homePhoto {
+        height: 20%;
+        width: 20%;
+    }
+}

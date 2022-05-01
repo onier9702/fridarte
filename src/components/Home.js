@@ -1,7 +1,8 @@
 
 import React, { useMemo } from 'react';
 import { getPortrait } from '../helpers/getPortrait';
-import '../index.css';
+// import '../index.css';
+import './Home.css';
 
 export const Home = () => {
 
@@ -13,11 +14,11 @@ export const Home = () => {
   return (
       <>
 
-        <div className='portrait'>
+        <div className="portrait">
           
           {
             portraits.map( p => (
-              <img key={p} src={`.././assets/${p}.jpg`} style={{width:100,height:100}} alt={`${p}`}/>
+              <img key={p} src={`./assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
             ) )
           }
           
@@ -26,3 +27,4 @@ export const Home = () => {
       </>        
   )
 }
+// style={{width:100,height:100}}
