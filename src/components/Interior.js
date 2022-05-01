@@ -34,7 +34,7 @@ export const Interior = () => {
                       <div id="cuadro">
                         <img id="photo" key={p} src={`./assets${p}.jpg`} style={{maxWidth: 130}} alt=''/>
                       </div>
-                      <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>
+                      <Link to={`../../single/${p}`} id="link" ><pre id="more">...</pre></Link>
                     </div>
                   </>
                   )
