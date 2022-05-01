@@ -32,7 +32,8 @@ export const Interior = () => {
                   <>
                     <div id="tarjeta">
                       <div id="cuadro">
-                        <img id="photo" key={p} src={`.././assets${p}.jpg`} style={{maxWidth: 130}} alt=''/>
+                        <img id="photo" key={p} src={`./assets/${p}.jpg`} style={{maxWidth: 100}} alt=''/>
+
                       </div>
                       <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>
                     </div>

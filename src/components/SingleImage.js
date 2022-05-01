@@ -23,7 +23,7 @@ export const SingleImage = () => {
       <div id="h2-img" >
         <div id="single">
             <h2 className="m-3">FridarteStudio</h2>
-            <img src={`.././assets/${id}.jpg`} style={{maxWidth:300}} id="singleimage" alt={`singleimage${id}`} />
+            <img src={`./assets/${id}.jpg`} style={{maxWidth:300}} id="singleimage" alt={`singleimage${id}`} />
         </div>
 
       </div>
