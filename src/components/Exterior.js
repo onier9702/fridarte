@@ -31,7 +31,7 @@ export const Exterior = () => {
                   <>
                     <div id="tarjeta">
                       <div id="cuadro">
-                        <img id="photo" key={p} src={`./assets/${p}.jpg`} style={{maxWidth: 100}} alt=''/>
+                        <img id="photo" key={p} src={`/assets/${p}.jpg`} style={{maxWidth: 100}} alt=''/>
                       </div>
                       <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>
                     </div>
