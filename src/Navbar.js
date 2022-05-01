@@ -14,7 +14,7 @@ export const Navbar = () => {
         <div className="navbar">
 
           <div>
-            <img className="logofridarte" src="./assets/oficial_color.png" alt="logo-fridarte"/>
+            <img className="logofridarte" src={process.env.PUBLIC_URL + "/assets/oficial_color.png"} alt="logo-fridarte"/>
           </div>
 
           <div className="barra-btn">
