@@ -6,13 +6,12 @@ import '../index.css';
 
 export const Exterior = () => {
 
-  const exteriors = useMemo(() => getPortrait('exterior',3), []);
+  const exteriors = useMemo(() => getPortrait('exterior',12), []);
   const navigate = useNavigate();
   const handleReturn = () => {
 
     // return <Navigate to="/home"/>
     navigate(-1);
-    console.log('It was pressed');
 
   };
   
@@ -31,7 +30,7 @@ export const Exterior = () => {
                   <>
                     <div id="tarjeta">
                       <div id="cuadro">
-                        <img id="photo" key={p[8]} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} style={{maxWidth: 100}} alt='prov'/>
+                        <img  src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} key={p[8]} style={{maxWidth: 100}} alt='prov' />
                       </div>
                       <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>
                     </div>

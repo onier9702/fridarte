@@ -7,7 +7,7 @@ import '../index.css';
 
 export const Interior = () => {
 
-  const interiors = useMemo(() => getPortrait('interior',3), []);
+  const interiors = useMemo(() => getPortrait('interior',12), []);
   
   const navigate = useNavigate();
   const handleReturn = () => {
