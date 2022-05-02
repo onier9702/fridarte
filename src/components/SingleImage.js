@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
+import './SingleImage.css';
 
 export const SingleImage = () => {
 
@@ -18,15 +19,18 @@ export const SingleImage = () => {
   console.log(id);
   
   return (
-    <div id="gray-grid">
-      <i className="bi bi-arrow-left-short" id="back-logo" onClick={handleReturn} ></i>
-      <div id="h2-img" >
-        <div id="single">
-            <h2 className="m-3">FridarteStudio</h2>
-            <img src={process.env.PUBLIC_URL + `/assets/${id}.jpg`} style={{maxWidth:270}} id="singleimage" alt={`singleimage${id}`} />
-        </div>
 
-      </div>
+    <div className="envolve">
+
+        <i className="bi bi-arrow-left-short back-logo" onClick={handleReturn} ></i>
+        <div className="h2-img" >
+          {/* <div className="single"> */}
+              <h2 className="hh2">FridarteStudio</h2>
+              <img src={process.env.PUBLIC_URL + `/assets/${id}.jpg`}  className="singleimage" alt={`singleimage${id}`} />
+              {/* style={{maxWidth:270}} */}
+          {/* </div> */}
+
+        </div>
     </div>
   )
 }

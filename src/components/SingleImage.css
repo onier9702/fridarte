@@ -1,0 +1,53 @@
+/*     
+phone device: 320px — 480px;
+tablet: 481px — 768px;
+laptop: 769px — 1024px;
+desktop: 1025px — 1200px 
+*/
+.envolve {
+    background-color: #212529;
+    border-radius: 15px;
+    height: 85vh;
+    margin: 8%;
+    width: 100vw;
+
+}
+.envolve .h2-img {
+    width: 90%;
+    height: 90%;
+}
+.envolve .h2-img .single {
+    width: 90%;
+    height: 90%;
+}
+.envolve .back-logo {
+    color: #457b9d;
+    cursor: pointer;
+    font-size: 2em;
+}
+.envolve .h2-img .hh2 {
+    margin-left: 8%;
+}
+.envolve .h2-img h2 {
+    font-size: 40px;
+}
+.envolve .h2-img .singleimage {
+    border-radius: 9px;
+    margin: 4% 8% 8% 8%;
+    max-width: 50%;
+}
+@media (max-width:1024px){
+    .envolve .h2-img h2 {
+        font-size: 35px;
+    }
+}
+@media (max-width:768px){
+    .envolve .h2-img h2 {
+        font-size: 32px;
+    }
+}
+@media (max-width:480px){
+    .envolve .h2-img h2 {
+        font-size: 26px;
+    }
+}

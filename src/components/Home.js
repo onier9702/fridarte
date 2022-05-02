@@ -13,12 +13,17 @@ export const Home = () => {
 
   return (
       <>
-
+        <div className="logo">
+          <img className="logofridarte" src={process.env.PUBLIC_URL + "/assets/oficial_color.png"} alt="logo-fridarte"/>
+        </div>
+        
         <div className="portrait">
           
           {
             portraits.map( p => (
-              <img key={p} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
+              <div className="photo">
+                <img key={p} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
+              </div>
             ) )
           }
           

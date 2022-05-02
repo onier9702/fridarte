@@ -13,31 +13,48 @@ export const IntExtRouter = () => {
 
 
   return (
-    <>
-      <div className="container-sm">
-
-        <div className="row">
 
 
-          <div className="col-4 col-sm-4"  >
-            <Navbar />
-          </div>
+    <div className="rutas">
 
-          <div className="col-8 col-sm-8" >
-
-              <Routes >
-                  <Route path="/home"         element={ <Home /> } />
-                  <Route path="/search"       element={ <Search /> } />
-                  <Route path="/about"        element={ <About /> } />
-                  <Route path="/contact"      element={ <Contact /> } />
-
-                  <Route path="*"      element={ <Home /> }/>
-
-              </Routes>
-          </div>
+        <Navbar />
+        <div className="columna" >
+            <Routes >
+                <Route path="/home"     element={ <Home /> } />
+                <Route path="/search"   element={ <Search /> } />
+                <Route path="/about"    element={ <About /> } />
+                <Route path="/contact"  element={ <Contact /> } />
+                <Route path="*"         element={ <Home /> }/>
+            </Routes>
         </div>
     
-      </div>
-    </>
+    </div>
+
+    // <>
+    //   <div className="container-sm">
+
+    //     <div className="row">
+
+
+    //       <div className="col-4 col-sm-4"  >
+    //         <Navbar />
+    //       </div>
+
+    //       <div className="col-8 col-sm-8" >
+
+    //           <Routes >
+    //               <Route path="/home"         element={ <Home /> } />
+    //               <Route path="/search"       element={ <Search /> } />
+    //               <Route path="/about"        element={ <About /> } />
+    //               <Route path="/contact"      element={ <Contact /> } />
+
+    //               <Route path="*"      element={ <Home /> }/>
+
+    //           </Routes>
+    //       </div>
+    //     </div>
+    
+    //   </div>
+    // </>
   )
 }

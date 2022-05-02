@@ -2,7 +2,8 @@
 import React, { useMemo } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { getPortrait } from '../helpers/getPortrait';
-import '../index.css';
+
+import './Interior.css';
 
 export const Exterior = () => {
 
@@ -28,11 +29,11 @@ export const Exterior = () => {
               exteriors.map( p => {
                 return (
                   <>
-                    <div id="tarjeta">
-                      <div id="cuadro">
-                        <img  src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} key={p[8]} style={{maxWidth: 100}} alt='prov' />
+                    <div className="tarjeta">
+                      <div className="cuadro">
+                        <img  src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} className="photo" key={p[8]} style={{maxWidth: 100}} alt='prov' />
                       </div>
-                      <Link to={`/single/${p}`} id="link" ><pre id="more">...</pre></Link>
+                      <Link to={`/single/${p}`} className="link" ><pre className="more">...</pre></Link>
                     </div>
                   </>
                 )})

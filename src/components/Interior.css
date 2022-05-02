@@ -1,0 +1,30 @@
+#back-logo {
+    color: #457b9d;
+    cursor: pointer;
+    font-size: 2em;   
+}
+
+.interior .tarjeta {
+    align-self:flex-end;
+    padding-right: 10%;
+    padding-bottom: 7%;
+}
+
+.interior .tarjeta .cuadro {
+    margin-bottom: 12%;
+}
+.interior .tarjeta .cuadro .photo {
+    border-radius: 7px;
+}
+/* .interior .tarjeta .link {
+
+} */
+.interior .tarjeta .link .more {
+    background-color: #212529;
+    border-radius: 8px;
+    color: #b6ad90;
+    cursor: pointer;
+    height: fit-content;
+    margin-left: 38%;
+    width: fit-content;
+}

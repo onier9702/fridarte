@@ -1,0 +1,41 @@
+/*     
+phone device: 320px — 480px;
+tablet: 481px — 768px;
+laptop: 769px — 1024px;
+desktop: 1025px — 1200px 
+*/
+.navbar {
+    background-color: #212529;
+    margin: 0px;
+    padding-bottom: 3px;
+    width: 100vw;
+}
+.navbar .div-nav ul {
+    margin-left: 8%;
+}
+.navbar .div-nav ul li{
+    font-size: 20px;
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.navbar .div-nav ul li .enlace{
+    color: white;
+}
+@media (max-width:1024px){
+    .navbar .div-nav ul li{
+        font-size: 16px;
+        margin-left: 5%;
+    }
+}
+@media (max-width:768px){
+    .navbar .div-nav ul li{
+        font-size: 12px;
+        margin-left: 3%;
+    }
+}
+@media (max-width:480px){
+    .navbar .div-nav ul li{
+        font-size: 10px;
+        margin-left: 1.5%;
+    }
+}
