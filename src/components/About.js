@@ -1,14 +1,16 @@
 
 import React from 'react';
-import '../index.css';
+import './About.css';
 
 export const About = () => {
   return (
-    <div>
-        <h1 >About</h1>
-        <hr />
-        <div id="Mision">
-            <h4 ><i id="flecha" className="bi bi-check-lg"></i>  Misión</h4>
+    <div className="about">
+        <div className="encab">
+          <h1 >About</h1>
+          <hr />
+        </div>
+        <div className="mision">
+            <h4 ><i className="bi bi-check-lg"></i>  Misión</h4>
             <p> Brindar un servicio fotográfico exclusivo a toda persona 
                 natural o jurídica que lo solicite, utilizando una tecnología y 
                 capacitación profesional. Marcando un antes y un después en la 
@@ -17,8 +19,8 @@ export const About = () => {
 
           </div>
 
-          <div id="Mision">
-            <h4 ><i id="flecha" className="bi bi-check-lg"></i>  Visión</h4>
+          <div className="mision">
+            <h4 ><i className="bi bi-check-lg"></i>  Visión</h4>
             <p>
               FRIDARTE STUDIO es un emprendimiento en el centro de Cuba que ofrece 
               servicios múltiples de publicidad, fotografía social, empresarial y de moda

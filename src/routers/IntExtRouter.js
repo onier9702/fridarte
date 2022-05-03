@@ -8,6 +8,7 @@ import { About } from '../components/About';
 import { Navbar } from '../Navbar';
 import { Contact } from '../components/Contact';
 
+import '../Nav.css';
 
 export const IntExtRouter = () => {
 

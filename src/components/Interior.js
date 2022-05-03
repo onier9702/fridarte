@@ -22,7 +22,7 @@ export const Interior = () => {
   
   return (
       <>
-        <div >
+        <div className="base">
 
           <i className="bi bi-arrow-left-short" id="back-logo" onClick={handleReturn} ></i>
           <h2>Estudio</h2>

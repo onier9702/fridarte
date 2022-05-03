@@ -1,0 +1,76 @@
+h1 {
+    margin-left: 2.5%;
+    color: red;
+}
+hr {
+    margin-left: 2.5%;
+}
+.contacto {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.contacto  p {
+    margin-left: 4px;
+}
+i {
+    margin-right: 3%;
+}
+#ilocaticon{ 
+    color: #1982c4;
+    font-size: 1.5em;
+}
+#email {
+    color: rgb(230, 39, 39);
+    font-size: 1.5em;
+}
+#faceb{
+    color: #0450b4;
+    font-size: 1.5em;
+}
+#inst {
+    color: #d94a8c;
+    font-size: 1.5em;
+}
+#pint {
+    color: red;
+    font-size: 1.5em;
+}
+#whats {
+    color: #8ac926;
+    font-size: 1.5em;
+}
+.contacto .mapa {
+    display: grid;
+}
+.contacto .mapa img {
+    margin-bottom: 5px;
+}
+.contacto .mapa a {
+    border-radius: 8px;
+    background-color: #212529;
+    color: rgb(219, 210, 210);
+    cursor: pointer;
+    margin-left: 10%;
+    text-decoration: none;
+    width: fit-content;
+}
+@media (max-width:1500px){
+    .contacto p {
+        font-size: 23px;
+    }
+}
+@media (max-width:768px){
+    .contacto p {
+        font-size: 20px;
+    }
+}
+@media (max-width:480px){
+    .contacto p {
+        font-size: 17px;
+    }
+   .contacto .mapa img {
+       width: 40vw;
+   }
+}
