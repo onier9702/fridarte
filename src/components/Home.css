@@ -15,39 +15,47 @@ desktop: 1025px — 1200px
     width: 20vw;
 }
 .portrait {
-    width: 100vw;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    /* width: 25vw; */
 }
 .portrait .photo {
-    /* background-color: #6c757d; */
+    
     padding-top: 2%;
-    width: 100vw;
+    align-self: flex-end;
+    /* width: 100vw; */
 }
 .portrait .photo .homePhoto{
     border-radius: 18px;
-    margin: 3% 1.5% 3% 1.5%;
-    width: 100vw;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 @media (max-width:480px){
     .logo .logofridarte {
         width: 30vw;
     }
-    .portrait .photo {
-        /* vertical-align: middle; */
-        padding: 2% 0% 2% 0%;
-        width: 100%;
+    .portrait {
+        flex-direction: column;
     }
+    /* .portrait .photo {
+        padding: 2% 0% 2% 0%;
+        max-width: 100%;
+    } */
     .portrait .photo .homePhoto {
         border-radius: 10px;
-        margin: 2.4% 2.5% 2.4% 2.5%;
+        margin-left: 0.15rem;
+        margin-right: 0.15rem;
         width: 100vw;
+        height: 60vh;
     }
 }
-@media (max-width:768px) {
-    /* .portrait {
+/* @media (max-width:768px) {
+    .portrait {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap
-    } */
+    }
     .portrait .photo {
         padding: 2% 7% 1% 7%;
         max-width: 35%;
@@ -56,24 +64,25 @@ desktop: 1025px — 1200px
         margin: 4% 8% 2% 8%;
         max-width: 220px;
     }
-}
+} */
+/*
 @media (max-width:1500px) {
-    /* .portrait {
+    .portrait {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-    } */
+    }
     .portrait .photo {
-        /* display: flex;
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap;  */
+        flex-wrap: wrap;
         padding: 2% 5% 1% 1.5%;
-        max-width: 40%;
+        max-width: 20%;
     }
     .portrait .photo .homePhoto {
         margin: 3%;
         max-width: 570px;
     }
-}
+} */
 
 

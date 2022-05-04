@@ -1,29 +1,39 @@
-.base {
+/* .base {
     width: 100%;
+} */
+h2 {
+    margin-left: 3%;
 }
-
 #back-logo {
     color: #457b9d;
     cursor: pointer;
     font-size: 2em;   
 }
-
-.base .interior .tarjeta {
+.interior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.interior .tarjeta {
     align-self:flex-end;
-    padding-right: 10%;
+    padding-right: 6%;
     padding-bottom: 7%;
+    padding-left: 3%;
 }
 
-.base .interior .tarjeta .cuadro {
+.interior .tarjeta .cuadro {
     margin-bottom: 12%;
 }
-.base .interior .tarjeta .cuadro .photo {
+.interior .tarjeta .cuadro .photo {
     border-radius: 7px;
 }
 /* .interior .tarjeta .link {
 
 } */
-.base .interior .tarjeta .link .more {
+.interior .tarjeta .link {
+    text-decoration-line: none;
+}
+.interior .tarjeta .link .more {
     background-color: #212529;
     border-radius: 8px;
     color: #b6ad90;
