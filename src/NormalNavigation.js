@@ -1,69 +1,15 @@
 
 import React from 'react';
-import { NavLink , Link} from 'react-router-dom';
 
-// import './index.css';
+import { NavLinks } from './NavLinks';
 import './Nav.css';
 
-export const Navbar = () => {
+export const NormalNavigation = () => {
 
   return (
-
-    <nav className="navbar">
-
-      <div className="div-nav">      
-
-        <ul className="listof">
-          <li>
-
-              <NavLink 
-                  className="enlace"
-                  to="./home">Inicio</NavLink>
-          </li>
-
-          <li>
-              <NavLink 
-                  className="enlace"
-                  to="./search">Buscar</NavLink>
-          </li>
-
-          <li>
-              <NavLink 
-                  className="enlace" 
-                  to="./about">Acerca</NavLink>
-          </li>
-
-          <li>
-              <NavLink 
-                  className="enlace" 
-                  to="./interior">Estudio</NavLink>
-          </li>
-          <li>
-              <NavLink 
-                  className="enlace" 
-                  to="./exterior">Exteriores</NavLink>
-          </li>
-
-          <li>
-              <NavLink  
-                  className="enlace" 
-                  to="./contact">Contactarnos</NavLink>
-          </li>
-              
-        </ul>
-
-      </div>
+    <nav className="normalNav">
+      <NavLinks />
     </nav>
-
-
-
-
-
-
-
-
-
-
     // <>
       
         /* <div className="navbar">

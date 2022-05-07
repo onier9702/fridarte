@@ -5,10 +5,9 @@ import { Routes, Route } from 'react-router-dom';
 import { Home } from '../components/Home';
 import { Search } from '../components/Search';
 import { About } from '../components/About';
-import { Navbar } from '../Navbar';
 import { Contact } from '../components/Contact';
+import { Navigation } from '../Navigation';
 
-import '../Nav.css';
 
 export const IntExtRouter = () => {
 
@@ -18,7 +17,7 @@ export const IntExtRouter = () => {
 
     <div className="rutas">
 
-        <Navbar />
+        <Navigation />
         <div className="columna" >
             <Routes >
                 <Route path="/home"     element={ <Home /> } />

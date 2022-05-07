@@ -13,11 +13,13 @@ export const Home = () => {
 
   return (
       <>
+        {/* <div className="probando"> */}
         <div className="logo">
           <img className="logofridarte" src={process.env.PUBLIC_URL + "/assets/oficial_color.png"} alt="logo-fridarte"/>
         </div>
+        {/* </div> */}
         
-        <div className="portrait">
+        <div className="portrait"> 
           
           {
             portraits.map( p => (

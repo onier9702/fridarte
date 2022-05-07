@@ -4,21 +4,23 @@ tablet: 481px — 768px;
 laptop: 769px — 1024px;
 desktop: 1025px — 1200px 
 */
+
 .logo {
-    width: 100%;
-}
-.logo .logofridarte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
-    margin: 1%;
-    margin-left: 40%;
-    padding: 2.5%;
-    width: 20vw;
 }
+.logo .logofridarte { 
+    margin-top: 4%;
+    
+    width: 16vw;
+}
+
 .portrait {
     display: flex;
     flex-direction:row;
     flex-wrap: wrap;
-    /* width: 25vw; */
 }
 .portrait .photo {
     
@@ -33,21 +35,22 @@ desktop: 1025px — 1200px
 }
 @media (max-width:480px){
     .logo .logofridarte {
-        width: 30vw;
+        margin-bottom: 5%;
+        width: 20vw;
     }
     .portrait {
-        flex-direction: column;
-    }
-    /* .portrait .photo {
-        padding: 2% 0% 2% 0%;
-        max-width: 100%;
-    } */
-    .portrait .photo .homePhoto {
-        border-radius: 10px;
-        margin-left: 0.15rem;
-        margin-right: 0.15rem;
         width: 100vw;
-        height: 60vh;
+    }
+    .portrait .photo {
+        margin: 1%;
+    }
+    .portrait .photo .homePhoto {
+        /* display: flex; */
+        border-radius: 10px;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+        width: 45vw;
+        min-height: 20vh;
     }
 }
 /* @media (max-width:768px) {

@@ -4,54 +4,67 @@ tablet: 481px — 768px;
 laptop: 769px — 1024px;
 desktop: 1025px — 1200px 
 */
-.rutas {
+.normalNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    margin: 0px;
     padding: 0px;
-    margin: 0px;
-    width: 100vw;
 }
-.navbar {
-    background-color: #212529;
-    margin: 0px;
-    padding-bottom: 3px;
-    width: 100%;
+ul li{
+    display: inline-block;
+    margin: 1vw;
 }
-.navbar .div-nav {
-    width: 100%;
-}
-.navbar .div-nav ul {
-    display:inline-flex;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-.navbar .div-nav ul li{
-    font-size: 20px;
-    margin-left: 6%;
-    margin-top: 1%;
-    list-style-type: none;
-}
-.navbar .div-nav ul li .enlace{
-    color: white;
+ul li a{
     text-decoration: none;
+    color: white;
 }
-@media (max-width:1024px){
-    .navbar .div-nav ul li{
+ul li a:hover{
+    color: red;
+}
+
+.mobileNav {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .normalNav {
+        display: none;
+    }
+   
+    .mobileNav {
+        padding-bottom: 7vh;
+        border-radius: 8px;
+        /* background: #2f3e46; */
+        opacity: 0.95;
+        display: flex;
+        position: absolute;
+        width: 30vw;
+        right: 0%;
+        
+        /* align-items: center;
+        justify-self: center; */
+    }
+    .mobileNav .icon i {
+        font-size: 6vw;
+        cursor: pointer;
+        position: absolute;
+        right: 3%;
+    }
+    .mobileNav nav ul {
+        margin-top: 28%;
+        margin-left: 2.5% ;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .mobileNav nav ul li {
+        font-family: serif;
         font-size: 17px;
-        margin-left: 12%;
     }
-}
-@media (max-width:768px){
-    .navbar .div-nav ul li{
-        font-size: 15px;
-        margin-left: 3%;
-    }
-}
-@media (max-width:480px){
-    .navbar .div-nav ul {
-        margin-top: 4%;
-        margin-left: -5%;
-    }
-    .navbar .div-nav ul li{
-        font-size: 12px;
-        margin-left: 3%;
+    .mobileNav nav ul li a {
+        color: red;
     }
 }
