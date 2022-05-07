@@ -5,6 +5,9 @@ h1 {
 hr {
     margin-left: 2.5%;
 }
+.rutas {
+    width: 100vw;
+}
 .contacto {
     width: 100%;
     margin-left: 5%;
@@ -42,7 +45,11 @@ i {
     font-size: 1.5em;
 }
 .contacto .mapa {
-    display: grid;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
 }
 .contacto .mapa img {
     margin-bottom: 5px;
@@ -51,8 +58,7 @@ i {
     border-radius: 8px;
     background-color: #212529;
     color: rgb(219, 210, 210);
-    cursor: pointer;
-    margin-left: 10%;
+    cursor: pointer;    
     text-decoration: none;
     width: fit-content;
 }
@@ -68,7 +74,8 @@ i {
 }
 @media (max-width:480px){
     .contacto p {
-        font-size: 17px;
+        font-size: 15px;
+        justify-content: center;
     }
    .contacto .mapa img {
        width: 40vw;
