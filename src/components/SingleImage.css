@@ -7,9 +7,9 @@ desktop: 1025px — 1200px
 .envolve {
     background-color: #212529;
     border-radius: 15px;
+    margin: 10vw;
     height: 85vh;
-    margin: 8%;
-    width: 100vw;
+    width: 80vw;
 
 }
 .envolve .h2-img {

@@ -19,9 +19,9 @@ export const MobileNavigation = () => {
         <div className="icon">
             { open ? closerIcon : burgerIcon }
         </div>
-        <nav >
+        <div className="nav" >
             { open && <NavLinks isMob={true} closeMobileMenu={closeMobileMenu} /> }
-        </nav>
+        </div>
     </div>
   )
 }
