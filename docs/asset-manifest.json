@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fridarte/static/css/main.6511cb5e.css",
+    "main.css": "/fridarte/static/css/main.f3695022.css",
     "main.js": "/fridarte/static/js/main.3287ce49.js",
     "static/media/bootstrap-icons.woff?": "/fridarte/static/media/bootstrap-icons.c1d7432ee75fa194e499.woff",
     "static/media/bootstrap-icons.woff2?": "/fridarte/static/media/bootstrap-icons.a13b815539b49de48d23.woff2",
     "index.html": "/fridarte/index.html",
-    "main.6511cb5e.css.map": "/fridarte/static/css/main.6511cb5e.css.map",
+    "main.f3695022.css.map": "/fridarte/static/css/main.f3695022.css.map",
     "main.3287ce49.js.map": "/fridarte/static/js/main.3287ce49.js.map"
   },
   "entrypoints": [
-    "static/css/main.6511cb5e.css",
+    "static/css/main.f3695022.css",
     "static/js/main.3287ce49.js"
   ]
 }
