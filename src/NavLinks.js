@@ -8,11 +8,11 @@ export const NavLinks = ({isMob, closeMobileMenu}) => {
 
         <ul>
 
-            {/* <li onClick={ () => isMob && closeMobileMenu() } >
+            <li onClick={ () => isMob && closeMobileMenu() } >
                 <NavLink 
                     className="enlace"
                     to="./home">Inicio</NavLink>
-            </li> */}
+            </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
                 <NavLink 
                     className="enlace"

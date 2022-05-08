@@ -41,39 +41,34 @@ desktop: 1025px — 1200px
 }
 .portrait .photo {
     
-    padding-top: 2%;
+    padding-top: 1%;
     align-self: flex-end;
     /* width: 100vw; */
 }
 .portrait .photo .homePhoto{
     border-radius: 18px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    /* margin-left: 1.5rem;
+    margin-right: 1.5rem; */
     
 }
-@media (max-width:480px){
-    .logo .logofridarte {
-        
-        width: 10vw;
-    }
+@media (max-width:1500px) {
     .portrait {
+        max-height: 15vh;
         width: 100vw;
     }
     .portrait .photo {
         margin: 1%;
     }
     .portrait .photo .homePhoto {
-        /* display: flex; */
-        border-radius: 10px;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        width: 45vw;
-        min-height: 20vh;
+        margin: 3%;
+        width: 22vw;
     }
+   
 }
 @media (max-width:790px) {
     .logo .logofridarte {
         margin-bottom: 5%;
+        max-height: 15vh;
         width: 20vw;
     }
     .portrait {
@@ -84,23 +79,30 @@ desktop: 1025px — 1200px
     }
     .portrait .photo .homePhoto {
         /* display: flex; */
-        border-radius: 10px;
-        margin-left: 0.1rem;
-        margin-right: 0.1rem;
-        width: 45vw;
+        margin: 1%;
+        width: 48vw;
         /* min-height: 20vh; */
     }
 }
 
-@media (max-width:1500px) {
-    
+
+@media (max-width:480px){
+    .logo .logofridarte {
+        width: 19vw;
+    }
+    .portrait {
+        width: 100vw;
+    }
     .portrait .photo {
-        width: 25vw;
+        margin: 1%;
     }
     .portrait .photo .homePhoto {
-        margin: 3%;
-        width: 20vw;
+        /* display: flex; */
+        border-radius: 10px;
+        /* margin-left: 1%; */
+        
+        width: 46vw;
+        min-height: 20vh;
     }
 }
-
 
