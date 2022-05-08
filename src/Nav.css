@@ -5,10 +5,27 @@ laptop: 769px — 1024px;
 desktop: 1025px — 1200px 
 */
 .normalNav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: fixed;
+    right: 3%;
+    top: 0;
+    display: inline;
 }
+.normalNav ul {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.normalNav ul li {
+    margin: 0%, 3%, 0%, 0%;
+    padding: 0;
+}
+.normalNav ul li a:hover {
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -25,16 +42,26 @@ ul li a:hover{
     color: red;
 }
 
-.mobileNav {
+.mobileNav, .three-icons {
     display: none;
-
 }
 
 @media (max-width: 480px) {
     .normalNav {
         display: none;
     }
-   
+    .three-icons {
+        display: flex;
+        position: fixed;
+        right: 15%;
+    }
+    .three-icons ul {
+        display: flex;
+        list-style: none;
+    }
+    .three-icons ul li {
+        margin-right: 4%;
+    }
     .mobileNav {
         display:flex;
         position: fixed;
