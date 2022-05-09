@@ -60,12 +60,12 @@ ul li a:hover{
         list-style: none;
     }
     .three-icons ul li {
-        margin-right: 4%;
+        margin-right: 6%;
     }
     .mobileNav {
         display:flex;
         position: fixed;
-        right: 0%;
+        right: 1%;
         opacity: 0.85;
         width: 40vw;
     }

@@ -8,36 +8,56 @@ export const Home = () => {
 
   const portraits = useMemo(() => getPortrait('portada',13), []);
   
-  
-  let intervalScroll;
-  const startScroll = () => {
-  
-    intervalScroll = setInterval(() => {
-        window.scrollBy(0,4);
-        if ( window.innerHeight + window.scrollY === document.body.offsetHeight ){
-            stopScroll();
-        }
-    }, 20); 
+  useEffect(() => {
 
-    return intervalScroll;
+    let intervalScroll;
+    const startScroll = () => {
+  
+      intervalScroll = setInterval(() => {
+          window.scrollBy(0,2);
+          if ( window.innerHeight + window.scrollY === document.body.offsetHeight ){
+              stopScroll();
+          }
+      }, 20); 
+
+      return intervalScroll;
     
-  }
-  startScroll();
+    }
+    startScroll();
 
-  const stopScroll = () => {
+    const stopScroll = () => {
+      clearInterval(intervalScroll);
+    };
 
-    clearInterval(intervalScroll);
-  }
-
-  document.body.addEventListener( 'click', (e) => {
-    e.preventDefault();
-    stopScroll();
-  } )
+    window.addEventListener( 'click', (e) => {
+      e.preventDefault();
+      stopScroll();
+    } );
+    window.addEventListener( 'mousemove', (e) => {
+      e.preventDefault();
+      stopScroll();
+    } );
+    window.addEventListener( 'touchmove', (e) => {
+      e.preventDefault();
+      stopScroll();
+    } );
+    window.addEventListener( 'touchstart', (e) => {
+      e.preventDefault();
+      stopScroll();
+    } );
   
+    return () => {
+      window.removeEventListener('click',stopScroll);
+      window.removeEventListener('mousemove',stopScroll);
+      window.removeEventListener('touchmove',stopScroll);
+      window.removeEventListener('touchstart',stopScroll);
+    }
+  }, [])
   
 
-  
 
+
+  
   
 
   return (
