@@ -6,9 +6,9 @@ export const Navigation = () => {
 
 
   return (
-    <nav >
+    <div >
         <MobileNavigation  />
         <NormalNavigation />
-    </nav>
+    </div>
   )
 }
