@@ -11,7 +11,7 @@ export const About = () => {
         </div>
 
           <div className="mision">
-            <h4 ><i className="bi bi-check-lg"></i>  Visión</h4>
+            <h4 ><i className="bi bi-check-lg"></i>  Misión</h4>
             <p>
               FRIDARTE STUDIO es una empresa en el centro de Cuba que ofrece 
               servicios múltiples de publicidad, fotografía social, empresarial y de moda

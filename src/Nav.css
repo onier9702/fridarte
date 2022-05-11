@@ -55,9 +55,9 @@ desktop: 1025px — 1200px
     }
     .three-icons {
         display: flex;
-        padding-top: 1.3%;
+        padding-top: 2%;
         position: fixed;
-        right: 16%;
+        right: 15vw;
         /* width: 100%; */
     }
     .three-icons ul {
@@ -81,6 +81,7 @@ desktop: 1025px — 1200px
         width: 80vw;
     } */
     .icon {
+        padding-top: 1%;
         width: fit-content;
         
     }
@@ -88,7 +89,7 @@ desktop: 1025px — 1200px
         font-size: 1.5rem;
         cursor: pointer;
         position: fixed;
-        right: 0.5%;
+        right: 0.5vw;
     }
     .nav {
         /* padding-top: 10%; */
@@ -105,6 +106,7 @@ desktop: 1025px — 1200px
     }
     .nav.isactive{
         left: 0;
+        position: fixed;
     }
     .nav ul {
         padding: 0;

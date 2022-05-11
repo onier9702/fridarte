@@ -21,7 +21,7 @@ desktop: 1025px — 1200px
     text-shadow: 1px 1px 2px black;
     font-family: 'Glamour', sans-serif;
     font-weight: bold;
-    font-size: 2.7rem;
+    font-size: 1.5rem;
     position: fixed;
     opacity: 0.8;
     text-align: center;
@@ -68,8 +68,13 @@ desktop: 1025px — 1200px
 @media (max-width:790px) {
     .logo .logofridarte {
         margin-bottom: 5%;
-        max-height: 15vh;
-        width: 20vw;
+        width: 16vw;
+    }
+    .logo .parr1 {
+        top: 55%;
+    }
+    .logo .parr2 {
+        top: 59%;
     }
     .portrait {
         width: 100vw;

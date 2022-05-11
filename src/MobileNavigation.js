@@ -1,5 +1,5 @@
 
-import React, { useState} from 'react';
+import React, { useEffect ,useRef, useState} from 'react';
 
 import { NavLinks } from './NavLinks';
 import './Nav.css';
@@ -13,9 +13,6 @@ export const MobileNavigation = () => {
     // menu_btn.classList.toggle('is-active');
     const burgerIcon = <i class="bi bi-list" onClick={ () => setOpen(!open) }></i>
     const closerIcon = <i class="bi bi-x" onClick={ () => setOpen(!open) }></i>
-    // const inst       = <i className="bi bi-instagram" style={{fontSize:5, opacity:0.8}} ></i>
-    // const what       = <i className="bi bi-whatsapp" style={{fontSize:5, opacity:0.8}}></i>
-    // const face       = <i className="bi bi-facebook" style={{fontSize:5, opacity:0.8}}></i>
 
     const unList = <ul>
                       <li>
@@ -31,15 +28,29 @@ export const MobileNavigation = () => {
 
     const closeMobileMenu = () => setOpen(false);
 
-    // useEffect(() => {
-    //   if(open) {
-    //     document.body.addEventListener( 'click', () => setOpen(false) );
-    //   }
+    const container = useRef();
+    const iconRef   = useRef();
+    // let medidor = false;
+
+    useEffect(() => {
+       
+      console.log('useEffect called!!!!');
+      if (open === true) {
+          document.addEventListener('click', (e) => {
+            e.preventDefault();
+            if ( !(container.current.contains(e.target)) && !(iconRef.current.contains(e.target))) {
+              setOpen(false);
+            }
+            
+          })
+      }
     
-    //   return () => {
-    //     document.body.removeEventListener( 'click', setOpen );
-    //   }
-    // }, [open])
+      return () => {
+        document.removeEventListener('click', () => {});
+        // setOpen(false);
+      }
+    }, [container.current])
+    
     
 
   return (
@@ -48,10 +59,10 @@ export const MobileNavigation = () => {
             { (open === false) ? unList : '' }
       </div>
       {/* <div className="mobileNav" style={ open ? {backgroundColor:'black'} : {backgroundColor:'black'} } > */}
-      <div className="icon">
+      <div className="icon" ref={iconRef}>
         { open ? closerIcon : burgerIcon }
       </div>
-      <div className={`nav ${(open ? 'isactive' : '')}`} >
+      <div className={`nav ${(open ? 'isactive' : '')}`} ref={container} >
           {/* { open && <NavLinks isMob={true} closeMobileMenu={closeMobileMenu} /> } */}
           <NavLinks isMob={true} closeMobileMenu={closeMobileMenu} />
       </div>

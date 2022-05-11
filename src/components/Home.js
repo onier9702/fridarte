@@ -64,7 +64,7 @@ export const Home = () => {
       <>
         {/* <div className="probando"> */}
         <div className="logo">
-          <img className="logofridarte" src={process.env.PUBLIC_URL + "/assets/oficial_color.png"} alt="logo-fridarte"/>
+          <img className="logofridarte" key="logo-frid" src={process.env.PUBLIC_URL + "/assets/oficial_color.png"} alt="logo-fridarte"/>
           <p className="parr1">Fridarte</p>
           <p className="parr2">Studio</p>
         </div>
