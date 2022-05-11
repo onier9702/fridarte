@@ -3,8 +3,7 @@
 
 export const getPortrait = (element, amount) => {
 
-
-    const arr = [];
+    const arr   = [];
     for (let i=1; i<amount; i++){
         arr.push(`${element}${i}`);
     };

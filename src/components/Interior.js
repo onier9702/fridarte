@@ -34,7 +34,7 @@ export const Interior = () => {
                   
                     <div className="tarjeta">
                       <div className="cuadro">
-                        <img key={p[8]} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} style={{maxWidth: 100, maxHeight: 110}} className="photo" alt='int'/>
+                        <img key={p} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} style={{maxWidth: 100, maxHeight: 110}} className="photo" alt='int'/>
                       </div>
                       <Link to={`/single/${p}`} className="link" ><pre className="more">...</pre></Link>
                     </div>

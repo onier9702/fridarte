@@ -6,7 +6,7 @@ import './Home.css';
 
 export const Home = () => {
 
-  const portraits = useMemo(() => getPortrait('portada',13), []);
+  const portrait = useMemo(() => getPortrait('portada',13), []);
   
   useEffect(() => {
 
@@ -73,7 +73,7 @@ export const Home = () => {
         <div className="portrait"> 
           
           {
-            portraits.map( p => (
+            portrait.map( p => (
               <div className="photo">
                 <img key={p} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} className="homePhoto" alt={`${p}`}/>
               </div>

@@ -6,9 +6,20 @@ import './Nav.css';
 
 export const NormalNavigation = () => {
 
+  const handleTop = () => {
+    window.scrollTo({
+      left: 0,
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
+
+  const btnToTop = <i class="bi bi-arrow-up-circle-fill" onClick={handleTop}></i>
+
   return (
     <nav className="normalNav">
       <NavLinks />
+      {btnToTop}
     </nav>
     // <>
       
