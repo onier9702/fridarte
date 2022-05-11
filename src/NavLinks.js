@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink as a } from 'react-router-dom';
 import './Nav.css';
 
 export const NavLinks = ({isMob, closeMobileMenu}) => {
@@ -9,34 +9,34 @@ export const NavLinks = ({isMob, closeMobileMenu}) => {
         <ul>
 
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink 
+                <a 
                     className="enlace"
-                    to="./home">Inicio</NavLink>
+                    href="#/home">Inicio</a>
             </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink 
+                <a 
                     className="enlace"
-                    to="./search">Buscar</NavLink>
+                    href="#/search">Buscar</a>
             </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink 
+                <a 
                     className="enlace" 
-                    to="./about">Acerca</NavLink>
+                    href="#/about">Acerca</a>
             </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink 
+                <a 
                     className="enlace" 
-                    to="./interior">Estudio</NavLink>
+                    href="#/interior">Estudio</a>
             </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink 
+                <a 
                     className="enlace" 
-                    to="./exterior">Exteriores</NavLink>
+                    href="#/exterior">Exteriores</a>
             </li>
             <li onClick={ () => isMob && closeMobileMenu() } >
-                <NavLink  
+                <a  
                     className="enlace" 
-                    to="./contact">Contactarnos</NavLink>
+                    href="#/contact">Contactarnos</a>
             </li>
                 
         </ul>

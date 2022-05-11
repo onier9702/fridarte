@@ -15,9 +15,9 @@ export const WebRouter = () => {
       <div id="ppal">
 
         <Routes>
-            <Route path="/interior"   element={ <Interior /> } />
-            <Route path="/exterior"   element={ <Exterior /> } />
-            <Route path="/single/:id" element={<SingleImage />}/>
+            <Route path="#/interior"   element={ <Interior /> } />
+            <Route path="#/exterior"   element={ <Exterior /> } />
+            <Route path="#/single/:id" element={<SingleImage />}/>
             <Route path="*"           element={ <IntExtRouter /> } />
         </Routes>
 
