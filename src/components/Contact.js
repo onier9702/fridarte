@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { HTMLAttributeAnchorTarget } from 'react';
+import { AnchorHTMLAttributes } from 'react';
 
 import './Contacto.css';
 export const Contact = () => {
