@@ -5,45 +5,98 @@
 }
 .about .encab {
     padding-top: 3%;
-    padding-bottom: 10%;
 }
-.about .mision {
-    background-color: #343a40;
-    border: 1px solid gray;
-    border-radius: 8px;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin-bottom: 12px;
+.about .sectional-content {
+    background-color: #212529;
+    margin: 3%;
+    padding: 3%;
 }
-.about .mision h4 {
-    color: red;
-    font-size: 20px;
-    padding-bottom: 2px;
-    margin-top: 5%;
-    margin-bottom: 5px;
+.about .sectional-content .header1 {
+    display: flex;
+    padding-left: 3%;
 }
-.about .mision p {
-    color: white;
-    margin-left: 7%;
-    margin-right: 3%;
+.about .sectional-content .header1 .logo img {
+    /* margin-left: 8vw; */
+    margin-right: 4vw;
+    width: 80px;
+}
+.about .sectional-content .header1 .letters {
+    margin-top: 10px;
+}
+.about .sectional-content .header1 .letters h5 {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+.about .sectional-content .header1 .letters p {
+    font-size: 15px;
+    justify-content: center;
+}
+.about .sectional-content  p {
+    padding: 3%;
     text-align: justify;
 }
-.about .mision h4 i {
-    color: red;
+.about .sectional-content .types-photos {
+    padding: 3%;
 }
-
+.about .sectional-content .types-photos h5{
+    margin-bottom: 22px;
+}
+.about .sectional-content .types-photos .pregnant{
+    display: flex;
+    margin-bottom: 18px;
+    width: fit-content;
+}
+.about .sectional-content .types-photos .pregnant img {
+    max-width: 30vw;
+    margin-right: 4%;
+}
+.about .sectional-content .types-photos .pregnant .text h6 {
+    margin-bottom: 0;
+}
+.about .sectional-content .types-photos .pregnant .text p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
 @media (max-width:1500px){
-    .about .mision p {
-        font-size: 30px;
+    .sectional-content .logo img {
+        width: 130px;
+    }
+    .about .sectional-content .header1 .letters p {
+        font-size: 15px;
     }
 }
 @media (max-width:768px){
-    .about .mision p {
-        font-size: 22px;
+    .sectional-content .logo img {
+        width: 100px;
+    }
+    .about .sectional-content .header1 .letters p {
+        font-size: 12px;
+    }
+    .about .sectional-content .types-photos .pregnant .text p {
+        font-size: 14px;
     }
 }
 @media (max-width:480px){
-    .about .mision p {
+   
+    .about .sectional-content .letters p {
+        font-size: 12px;
+    }
+    .about .sectional-content .header1 .letters p {
+        font-size: 10px;
+    }
+    .about .sectional-content .types-photos .pregnant{
+        display: inline-block;
+        margin-bottom: 25px;
+    }
+    .about .sectional-content .types-photos .pregnant img {
+        max-width: 90vw;
+        margin-bottom: 7px;
+    }
+    .about .sectional-content .types-photos .pregnant .text h6 {
+        margin-bottom: 6px;
+    }
+    .about .sectional-content .types-photos .pregnant .text p {
         font-size: 14px;
     }
 }
