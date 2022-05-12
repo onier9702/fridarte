@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 import './Contacto.css';
 export const Contact = () => {
 
+  // const social = <a href='https://www.instagram.com/fridartestudio' />
+  
+  // const handleHref = <a "https://www.instagram.com/fridartestudio" />
  
   return (
 
@@ -14,23 +17,43 @@ export const Contact = () => {
           <hr />
 
           <div className="contacto">
+            
               <p><i id="ilocaticon" className="bi bi-geo-alt" ></i>  Cespedes 316 /Buena Vista y San Luis
                                                 Sancti Spiritus Cuba
               </p>
-
-              <p><i id="email" className="bi bi-envelope-fill"> </i>fridartestudiooficial@gmail.com</p>
-
-              <p><i className="bi bi-facebook" id="faceb" ></i>@fridartestudio</p>
-
-              <p><i className="bi bi-instagram" id="inst" ></i>@fridartestudio</p>
-
-              <p><i className="bi bi-whatsapp"  id="whats"></i>+53 52615585</p>
-
               <div className="mapa">
                 <img src={process.env.PUBLIC_URL + "/assets/location.jpg"} key="locat" id="loc" style={{maxWidth:190}} alt="location" />
                 <Link to={`/single/location`} className="linkMap" >VerMap</Link>
               </div>
-              
+
+
+              <div className="socialMedia">
+                <p >Visítenos en nuestras Redes Sociales</p>
+                <ul >
+                  <li >
+                    <a  href="https://www.instagram.com/fridartestudio"
+                        target="_blank"
+                        rel="noreferrer"
+                    > <i className="bi bi-instagram" id="inst" ></i> </a>
+                  </li>
+
+                  <li>
+                      <a href="https://www.facebook.com/fridarteestudio"
+                      target="_blank"
+                      rel="noreferrer"
+                    
+                    > <i className="bi bi-facebook" id="faceb" ></i> </a>
+                  </li >
+                    
+                  <li >
+                    <a  href="http://wa.me/5354336432"
+                        target="_blank"
+                        rel="noreferrer"
+                    > <i className="bi bi-whatsapp" id="whats" ></i> </a>
+                  </li>           
+                </ul>
+              </div>
+          
           </div>
     
       </div>
