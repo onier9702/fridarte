@@ -61,32 +61,20 @@ desktop: 1025px — 1200px
         /* width: 100%; */
     }
     .three-icons ul {
-        margin: 0;
+        margin-right: 10px;
         padding: 0;
         display: inline-flex;
         list-style: none;
     }
     .three-icons ul li {
-        margin-right: 15%;
+        margin-right: 12%;
     }
-    .three-icons ul li i {
-        font-size: 1.5rem;
-    }
-    /* .mobileNav {
-        display:flex;
-        position: fixed;
-        left: 100%;
-        opacity: 0.85;
-        transition: 0.5s;
-        width: 80vw;
-    } */
     .icon {
-        padding-top: 1%;
         width: fit-content;
         
     }
     .icon i{
-        font-size: 1.5rem;
+        font-size: 30px;
         cursor: pointer;
         position: fixed;
         right: 0.5vw;

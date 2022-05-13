@@ -1,20 +1,14 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { HTMLAttributeAnchorTarget } from 'react';
-import { AnchorHTMLAttributes } from 'react';
 
 import './Contacto.css';
 export const Contact = () => {
 
-  // const social = <a href='https://www.instagram.com/fridartestudio' />
-  
-  // const handleHref = <a "https://www.instagram.com/fridartestudio" />
- 
-  return (
 
-    <>
-      <div>
+  return (
+    
+        <div>
           <h1 >Contactarnos</h1>
           <hr />
 
@@ -30,13 +24,13 @@ export const Contact = () => {
 
 
               <div className="socialMedia">
-                <p >Visítenos en nuestras Redes Sociales</p>
+                <p className="mb-3">Visítenos en nuestras Redes Sociales</p>
                 <ul >
-                  <li >
+                 <li>
                     <a  href="https://www.instagram.com/fridartestudio"
                         target="_blank"
                         rel="noreferrer"
-                    > <i className="bi bi-instagram" id="inst" ></i> </a>
+                    ><i className="bi bi-instagram" id="inst" ></i></a>
                   </li>
 
                   <li>
@@ -44,22 +38,21 @@ export const Contact = () => {
                       target="_blank"
                       rel="noreferrer"
                     
-                    > <i className="bi bi-facebook" id="faceb" ></i> </a>
+                    ><i className="bi bi-facebook" id="faceb" ></i></a>
                   </li >
                     
                   <li >
                     <a  href="http://wa.me/5354336432"
                         target="_blank"
                         rel="noreferrer"
-                    > <i className="bi bi-whatsapp" id="whats" ></i> </a>
+                    ><i className="bi bi-whatsapp" id="whats" ></i></a>
                   </li>           
                 </ul>
               </div>
           
           </div>
     
-      </div>
-    </>
+        </div>
   )
 }
  

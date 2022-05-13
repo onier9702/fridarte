@@ -23,10 +23,10 @@
 .about .sectional-content .header1 .letters {
     margin-top: 10px;
 }
-.about .sectional-content .header1 .letters h5 {
+/* .about .sectional-content .header1 .letters h5 {
     margin-bottom: 0;
     margin-left: 5px;
-}
+} */
 .about .sectional-content .header1 .letters p {
     font-size: 15px;
     justify-content: center;
@@ -43,7 +43,7 @@
 }
 .about .sectional-content .types-photos .pregnant{
     display: flex;
-    margin-bottom: 18px;
+    margin-bottom: 25px;
     width: fit-content;
 }
 .about .sectional-content .types-photos .pregnant img {

@@ -16,13 +16,13 @@ export const MobileNavigation = () => {
 
     const unList = <ul>
                       <li>
-                      <i className="bi bi-instagram" style={{fontSize:15, opacity:0.5}} ></i>
+                        <i className="bi bi-instagram" style={{fontSize:20, opacity:0.4}} ></i>
                       </li>
                       <li>
-                      <i className="bi bi-whatsapp" style={{fontSize:15, opacity:0.5}} ></i>
+                        <i className="bi bi-whatsapp" style={{fontSize:20, opacity:0.4}} ></i>
                       </li>
                       <li>
-                      <i className="bi bi-facebook" style={{fontSize:15, opacity:0.5}} ></i>
+                        <i className="bi bi-facebook" style={{fontSize:20, opacity:0.4}} ></i>
                       </li>
                    </ul>
 
@@ -49,7 +49,7 @@ export const MobileNavigation = () => {
         document.removeEventListener('click', () => {});
         // setOpen(false);
       }
-    }, [container.current])
+    }, [open])
     
     
 
