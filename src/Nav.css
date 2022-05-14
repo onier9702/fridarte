@@ -94,7 +94,7 @@ desktop: 1025px — 1200px
     }
     .nav.isactive{
         left: 0;
-        position: fixed;
+        /* position: fixed; */
     }
     .nav ul {
         padding: 0;
@@ -105,6 +105,9 @@ desktop: 1025px — 1200px
         align-items: center;
         justify-content: center;
     
+    }
+    .nav.isactive ul{
+        padding-top: 60px;
     }
     .nav ul li {
         font-size: 17px;

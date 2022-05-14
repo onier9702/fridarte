@@ -3,6 +3,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Contacto.css';
+import { Carousel } from './Carousel';
+
+
 export const Contact = () => {
 
 
@@ -13,6 +16,8 @@ export const Contact = () => {
           <hr />
 
           <div className="contacto">
+
+              <Carousel />
             
               <p><i id="ilocaticon" className="bi bi-geo-alt" ></i>  Cespedes 316 /Buena Vista y San Luis
                                                 Sancti Spiritus Cuba
@@ -48,6 +53,9 @@ export const Contact = () => {
                     ><i className="bi bi-whatsapp" id="whats" ></i></a>
                   </li>           
                 </ul>
+                <div className="number">
+                  <p >+53 54336432</p>
+                </div>  
               </div>
           
           </div>

@@ -6,6 +6,8 @@
 .about .encab {
     padding-top: 3%;
 }
+
+/* Sectional-content */
 .about .sectional-content {
     background-color: #212529;
     margin: 3%;
@@ -29,7 +31,7 @@
 } */
 .about .sectional-content .header1 .letters p {
     font-size: 15px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .about .sectional-content  p {
     padding: 3%;
