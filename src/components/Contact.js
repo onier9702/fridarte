@@ -32,6 +32,7 @@ export const Contact = () => {
                 <p className="mb-3">Visítenos en nuestras Redes Sociales</p>
                 <ul >
                  <li>
+                    
                     <a  href="https://www.instagram.com/fridartestudio"
                         target="_blank"
                         rel="noreferrer"

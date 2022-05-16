@@ -13,7 +13,7 @@ desktop: 1025px — 1200px
 }
 .envolve .h2-img {
     /* height: 75vh; */
-    width: 60vw;
+    width: 90vw;
 }
 .envolve .back-logo {
     color: #457b9d;
@@ -29,21 +29,30 @@ desktop: 1025px — 1200px
 .envolve .h2-img .singleimage {
     border-radius: 9px;
     margin: 0% 8% 5% 8%;
-    max-height: 65vh;
-    max-width: 50vw;
+    max-height: 90vh;
+    width: 50vw;
 }
 @media (max-width:1024px){
     .envolve .h2-img h2 {
         font-size: 35px;
     }  
+    
 }
 @media (max-width:768px){  
     .envolve .h2-img h2 {
         font-size: 32px;
     }
+    .envolve .h2-img .singleimage {
+        max-height: 90vh;
+        width: 80vw;
+    }
 }
 @media (max-width:480px){
     .envolve .h2-img h2 {
         font-size: 26px;
+    }
+    .envolve .h2-img .singleimage {
+        max-height: 90vh;
+        width: 80vw;
     }
 }

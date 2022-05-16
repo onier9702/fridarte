@@ -28,8 +28,8 @@ export const MobileNavigation = () => {
 
     const closeMobileMenu = () => setOpen(false);
 
-    const container = useRef();
-    const iconRef   = useRef();
+    const container = useRef(null);
+    const iconRef   = useRef(null);
     // let medidor = false;
 
     useEffect(() => {
