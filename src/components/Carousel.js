@@ -30,7 +30,7 @@ export const Carousel = () => {
     }, 7000);
 
   return (
-    <section aria-label="Newest Photos">
+    <section aria-label="Newest-Photos">
         <div className="carousel" data-carousel>
             <button className="carousel-button prev" onClick={prevButton}  ><i class="bi bi-arrow-left-short"></i></button>
             <button className="carousel-button next" onClick={nextButton} id="imgcarousel" ><i class="bi bi-arrow-right-short"></i></button>

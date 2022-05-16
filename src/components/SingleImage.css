@@ -7,13 +7,13 @@ desktop: 1025px — 1200px
 .envolve {
     background-color: #212529;
     border-radius: 15px;
-    margin: 10vw;
+    margin: 5vw;
     height: fit-content;
     width: fit-content;
 }
 .envolve .h2-img {
-    height: 80vh;
-    width: 75vw;
+    /* height: 75vh; */
+    width: 60vw;
 }
 .envolve .back-logo {
     color: #457b9d;
@@ -28,8 +28,8 @@ desktop: 1025px — 1200px
 }
 .envolve .h2-img .singleimage {
     border-radius: 9px;
-    margin: 0% 8% 0% 8%;
-    max-height: 60vh;
+    margin: 0% 8% 5% 8%;
+    max-height: 65vh;
     max-width: 50vw;
 }
 @media (max-width:1024px){
