@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './Contacto.css';
-import { Carousel2 } from './Carousel2';
+import { Carousel } from './Carousel';
 
 
 export const Contact = () => {
@@ -17,7 +17,7 @@ export const Contact = () => {
 
           <div className="contacto">
 
-              <Carousel2 />
+              <Carousel />
             
               <p><i id="ilocaticon" className="bi bi-geo-alt" ></i>  Cespedes 316 /Buena Vista y San Luis
                                                 Sancti Spiritus Cuba

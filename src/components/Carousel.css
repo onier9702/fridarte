@@ -1,6 +1,10 @@
-/* 
+
+.Newest-Photos {
+    width: 100vw;
+}
 .carousel {
-    padding: 3%;
+    padding: 1%;
+    width: 100%;
    
 }
 section {
@@ -8,7 +12,7 @@ section {
 }
 .carousel img {
     height: 40vh;
-    width: 88vw;
+    width: 86vw;
 }
 
 .carousel button {
@@ -41,4 +45,4 @@ section {
     .carousel img {
         height: 30vw;
 }
-} */
+}
