@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fridarte/static/css/main.e46a65d4.css",
-    "main.js": "/fridarte/static/js/main.d7897242.js",
+    "main.js": "/fridarte/static/js/main.61596f1b.js",
     "index.html": "/fridarte/index.html",
     "main.e46a65d4.css.map": "/fridarte/static/css/main.e46a65d4.css.map",
-    "main.d7897242.js.map": "/fridarte/static/js/main.d7897242.js.map"
+    "main.61596f1b.js.map": "/fridarte/static/js/main.61596f1b.js.map"
   },
   "entrypoints": [
     "static/css/main.e46a65d4.css",
-    "static/js/main.d7897242.js"
+    "static/js/main.61596f1b.js"
   ]
 }

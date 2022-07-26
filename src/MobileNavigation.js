@@ -11,8 +11,8 @@ export const MobileNavigation = () => {
     // const menu_btn = document.querySelector('.nav');
 
     // menu_btn.classList.toggle('is-active');
-    const burgerIcon = <i class="bi bi-list" onClick={ () => setOpen(!open) }></i>
-    const closerIcon = <i class="bi bi-x" onClick={ () => setOpen(!open) }></i>
+    const burgerIcon = <i className="bi bi-list" onClick={ () => setOpen(!open) }></i>
+    const closerIcon = <i className="bi bi-x" onClick={ () => setOpen(!open) }></i>
 
     const unList = <ul>
                       <li>
