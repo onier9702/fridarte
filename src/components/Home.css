@@ -19,7 +19,7 @@ desktop: 1025px — 1200px
 .logo p {
     color: white;
     text-shadow: 1px 1px 2px black;
-    font-family: 'Glamour', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
     position: fixed;
