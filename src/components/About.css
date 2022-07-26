@@ -40,7 +40,8 @@
 .about .sectional-content .types-photos {
     padding: 3%;
 }
-.about .sectional-content .types-photos h5{
+.about .sectional-content .types-photos h4{
+    color: crimson;
     margin-bottom: 22px;
 }
 .about .sectional-content .types-photos .pregnant{
@@ -52,11 +53,12 @@
     max-width: 30vw;
     margin-right: 4%;
 }
-.about .sectional-content .types-photos .pregnant .text h6 {
+.about .sectional-content .types-photos .pregnant .text h5 {
+    color: rgb(238, 101, 101);
     margin-bottom: 0;
 }
 .about .sectional-content .types-photos .pregnant .text p {
-    margin: 0;
+    margin: 0px 0px 20px 0px;
     padding: 0;
     font-size: 16px;
 }

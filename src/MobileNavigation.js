@@ -32,24 +32,24 @@ export const MobileNavigation = () => {
     const iconRef   = useRef(null);
     // let medidor = false;
 
-    useEffect(() => {
+    // useEffect(() => {
        
-      console.log('useEffect called!!!!');
-      if (open === true) {
-          document.addEventListener('click', (e) => {
-            e.preventDefault();
-            if ( !(container.current.contains(e.target)) && !(iconRef.current.contains(e.target))) {
-              setOpen(false);
-            }
+    //   console.log('useEffect called!!!!');
+    //   if (open === true) {
+    //       document.addEventListener('click', (e) => {
+    //         e.preventDefault();
+    //         if ( !(container.current.contains(e.target)) && !(iconRef.current.contains(e.target))) {
+    //           setOpen(false);
+    //         }
             
-          })
-      }
+    //       })
+    //   }
     
-      return () => {
-        document.removeEventListener('click', () => {});
-        // setOpen(false);
-      }
-    }, [open])
+    //   return () => {
+    //     document.removeEventListener('click', () => {});
+    //     // setOpen(false);
+    //   }
+    // }, [open])
     
     
 

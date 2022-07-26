@@ -26,10 +26,10 @@ export const Exterior = () => {
           <div className='interior'>
             
             {
-              exteriors.map( p => {
-                return (
+              exteriors.map( (p, index) => {
+                return ( 
                   <>
-                    <div className="tarjeta">
+                    <div key={index} className="tarjeta">
                       <div className="cuadro">
                         <img  src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} className="photo" key={p[8]} style={{maxWidth: 100}} alt='prov' />
                       </div>

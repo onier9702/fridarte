@@ -29,10 +29,10 @@ export const Interior = () => {
           <hr />
           <div className="interior">
             {
-              interiors.map( p => {
+              interiors.map( (p, index) => {
                 return (
                   
-                    <div className="tarjeta">
+                    <div key={index} className="tarjeta">
                       <div className="cuadro">
                         <img key={p} src={process.env.PUBLIC_URL + `/assets/${p}.jpg`} style={{maxWidth: 100, maxHeight: 110}} className="photo" alt='int'/>
                       </div>

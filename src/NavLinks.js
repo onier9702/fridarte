@@ -13,11 +13,11 @@ export const NavLinks = ({isMob, closeMobileMenu}) => {
                     className="enlace"
                     to="/home">Inicio</Link>
             </li>
-            <li onClick={ () => isMob && closeMobileMenu() } >
+            {/* <li onClick={ () => isMob && closeMobileMenu() } >
                 <Link 
                     className="enlace"
                     to="/search">Buscar</Link>
-            </li>
+            </li> */}
             <li onClick={ () => isMob && closeMobileMenu() } >
                 <Link 
                     className="enlace" 

@@ -25,9 +25,9 @@ export const Carousel = () => {
         (next === 3) ? setNext(next - 2) : setNext(next + 1);       
     }
    
-    setInterval(() => {
-        nextButton();
-    }, 7000);
+    // setInterval(() => {
+    //     nextButton();
+    // }, 7000);
 
   return (
     <section aria-label="Newest-Photos">

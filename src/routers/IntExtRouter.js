@@ -3,17 +3,15 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import { Home } from '../components/Home';
-import { Search } from '../components/Search';
 import { About } from '../components/About';
 import { Contact } from '../components/Contact';
 import { Navigation } from '../Navigation';
 
 
-export const IntExtRouter = () => {
+export const IntExtRouter = () => { 
 
 
   return (
-
 
     <div className="rutas">
 
@@ -21,7 +19,6 @@ export const IntExtRouter = () => {
         <div className="columna" >
             <Routes >
                 <Route path="/home"     element={ <Home /> } />
-                <Route path="/search"   element={ <Search /> } />
                 <Route path="/about"    element={ <About /> } />
                 <Route path="/contact"  element={ <Contact /> } />
                 <Route path="*"         element={ <Home /> }/>
